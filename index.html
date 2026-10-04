@@ -84,6 +84,7 @@ h2{font-size:22px;margin:26px 0 0}
    Depois salve e suba o arquivo de novo.
    ============================================================ */
 var PAISES = [
+  ["CZ", 279, 70, "parcial"],
   ["PL", 183, 65, "parcial"],
   ["NO", 592, 198, "parcial"],
   ["MZ", 89, 113, "parcial"],
@@ -130,7 +131,7 @@ var PAISES = [
 ];
 /* ============================================================ */
 
-var NAMES={PT:"Portugal",US:"Estados Unidos",GB:"Reino Unido",FR:"França",DE:"Alemanha",IT:"Itália",ES:"Espanha",CH:"Suíça",JP:"Japão",CN:"China",AR:"Argentina",PY:"Paraguai",UY:"Uruguai",CL:"Chile",BO:"Bolívia",PE:"Peru",CO:"Colômbia",VE:"Venezuela",EC:"Equador",MX:"México",CA:"Canadá",AU:"Austrália",NZ:"Nova Zelândia",IE:"Irlanda",NL:"Holanda",BE:"Bélgica",LU:"Luxemburgo",AT:"Áustria",SE:"Suécia",NO:"Noruega",DK:"Dinamarca",FI:"Finlândia",AO:"Angola",MZ:"Moçambique",CV:"Cabo Verde",ZA:"África do Sul",EG:"Egito",MA:"Marrocos",IL:"Israel",AE:"Emirados Árabes",QA:"Catar",SA:"Arábia Saudita",TR:"Turquia",RU:"Rússia",PL:"Polônia",GR:"Grécia",IN:"Índia",KR:"Coreia do Sul",TH:"Tailândia",CU:"Cuba",PA:"Panamá",CR:"Costa Rica",GF:"Guiana Francesa",SR:"Suriname",GY:"Guiana",HT:"Haiti",LB:"Líbano", ID:"Indonésia", PH:"Filipinas", MY:"Malásia", SG: "Singapura", TW: "Taiwan", EE:"Estônia", KW:"Kuwait", KE:"Quênia", JO:"Jordânia", CY:"Chipre", PS:"Palestina", RS: "Sérvia", RO: "Romênia", SK: "Eslováquia", HR: "Croácia", SI: "Eslovênia", SY: "Síria", HU: "Hungria"};
+var NAMES={PT:"Portugal",US:"Estados Unidos",GB:"Reino Unido",FR:"França",DE:"Alemanha",IT:"Itália",ES:"Espanha",CH:"Suíça",JP:"Japão",CN:"China",AR:"Argentina",PY:"Paraguai",UY:"Uruguai",CL:"Chile",BO:"Bolívia",PE:"Peru",CO:"Colômbia",VE:"Venezuela",EC:"Equador",MX:"México",CA:"Canadá",AU:"Austrália",NZ:"Nova Zelândia",IE:"Irlanda",NL:"Holanda",BE:"Bélgica",LU:"Luxemburgo",AT:"Áustria",SE:"Suécia",NO:"Noruega",DK:"Dinamarca",FI:"Finlândia",AO:"Angola",MZ:"Moçambique",CV:"Cabo Verde",ZA:"África do Sul",EG:"Egito",MA:"Marrocos",IL:"Israel",AE:"Emirados Árabes",QA:"Catar",SA:"Arábia Saudita",TR:"Turquia",RU:"Rússia",PL:"Polônia",GR:"Grécia",IN:"Índia",KR:"Coreia do Sul",TH:"Tailândia",CU:"Cuba",PA:"Panamá",CR:"Costa Rica",GF:"Guiana Francesa",SR:"Suriname",GY:"Guiana",HT:"Haiti",LB:"Líbano", ID:"Indonésia", PH:"Filipinas", MY:"Malásia", SG: "Singapura", TW: "Taiwan", EE:"Estônia", KW:"Kuwait", KE:"Quênia", JO:"Jordânia", CY:"Chipre", PS:"Palestina", RS: "Sérvia", RO: "Romênia", SK: "Eslováquia", HR: "Croácia", SI: "Eslovênia", SY: "Síria", HU: "Hungria", CZ: "Rep. Tcheca"};
 var fmt=new Intl.NumberFormat("pt-BR");
 function pct(a,b){return a+b?a/(a+b)*100:50}
 function p1(n){return n.toFixed(1).replace(".",",")+"%"}
